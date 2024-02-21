@@ -14,6 +14,7 @@ function askQuestion(question, answer) {
   }
 }
 
+
 function question1() {
   askQuestion("Did I graduate from college? (y/n)", "y");
 }
