@@ -34,6 +34,7 @@ function question5() {
   askQuestion("Do I like cats? (y/n)", "y");
 }
 
+//CALL functions
 question1();
 question2();
 question3();
