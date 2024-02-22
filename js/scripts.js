@@ -68,7 +68,7 @@ console.log("Question 5:", catPreference);
 let responseMessage = "Answers: 1-" + graduation + ", 2-" + travelPreference + ", 3-" + favoriteColor + ", 4-" + dogOwnership + ", 5-" + catPreference + ".";
 alert(responseMessage);
 
-//function user story2
+//function user story2, still need a too high or too low
 function guessHowManySistersWithMaxGuesses(maxGuesses) {
   let gotItCorrect = false;
   let numberOfGuesses = 0;
@@ -92,4 +92,4 @@ function guessHowManySistersWithMaxGuesses(maxGuesses) {
 }
 
 //call it
-guessHowManySistersWithMaxGuesses(3);
+guessHowManySistersWithMaxGuesses(4);
