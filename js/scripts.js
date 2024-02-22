@@ -15,6 +15,9 @@ function askQuestion(question, answer) {
 }
 
 
+/*
+Directions say do not use functions
+
 function question1() {
   askQuestion("Did I graduate from college? (y/n)", "y");
 }
@@ -42,6 +45,27 @@ question3();
 question4();
 question5();
 
-//document.write("Thanks for playing, " + userName + "! Hope you learned something about me.");
+// document.write("Thanks for playing, " + userName + "! Hope you learned something about me.");
 // console.log("Thanks for playing, " + userName + "! Hope you learned something about me.");
 alert("Thanks for playing, " + userName + "! Hope you learned something about me.");
+
+*/
+
+let graduation = prompt("Did I graduate from college?");
+console.log("Question 1:", graduation);
+
+let travelPreference = prompt("Do I like to travel?");
+console.log("Question 2:", travelPreference);
+
+let favoriteColor = prompt("Is my favorite color green?");
+console.log("Question 3:", favoriteColor);
+
+let dogOwnership = prompt("Do I have 2 dogs?");
+console.log("Question 4:", dogOwnership);
+
+let catPreference = prompt("Do I like cats?");
+console.log("Question 5:", catPreference);
+
+let responseMessage = "Answers: 1-" + graduation + ", 2-" + travelPreference + ", 3-" + favoriteColor + ", 4-" + dogOwnership + ", 5-" + catPreference + ".";
+alert(responseMessage);
+
