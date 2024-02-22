@@ -87,7 +87,7 @@ function guessHowManySistersWithMaxGuesses(maxGuesses) {
   if (gotItCorrect) {
     document.write(numberOfGuesses);
   } else {
-    document.write("No.");
+    document.write("Try again.");
   }
 }
 
@@ -97,7 +97,7 @@ guessHowManySistersWithMaxGuesses(4);
 //also not showing up, do i need an alertS
 
 //User story3, array
-let citiesLivedIn = ["Chicago", "DC", "Seattle", "Rochester", "Virginia Beach"]
+let citiesLivedIn = ["chicago", "dC", "seattle", "rochester", "virginia beach"]
 
 let guessCorrect = false;
 
