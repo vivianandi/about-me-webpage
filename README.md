@@ -16,6 +16,11 @@ This project is using HTML, CSS, and JS to practice (so far)...
 ### Monday
 
 ### Tuesday
-<img src="/img/LHR Tues.png" alt="Image Description">
+<img src="/img/LHR Tues.png" alt="LHR Tues">
 
 ### Wednesday
+<img src="/img/LHR Wed.png" alt="LHR Wed">
+- I'm not sure how this improved, I have not tried to do improve yet
+
+### Notes/observations
+- Need more examples for loops and arrays - on my to do list for weekend, confused

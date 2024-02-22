@@ -93,3 +93,24 @@ function guessHowManySistersWithMaxGuesses(maxGuesses) {
 
 //call it
 guessHowManySistersWithMaxGuesses(4);
+
+//also not showing up, do i need an alertS
+
+//User story3, array
+let citiesLivedIn = ["Chicago", "DC", "Seattle", "Rochester", "Virginia Beach"]
+
+let guessCorrect = false;
+
+//loop
+
+let userGuess = prompt("Question 7: Guess how many cities I lived in?");
+for (let i = 0; i < citiesLivedIn.length; i++) {
+  if (userGuess === currentCity) {
+    guessedCorrectly = true;
+    alert("You guessed correctly.");
+    break;
+  }
+}
+
+//user story4, correct answers - I have no idea, will get back to this
+
