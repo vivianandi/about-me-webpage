@@ -14,7 +14,6 @@ function askQuestion(question, answer) {
   }
 }
 
-
 /*
 Directions say do not use functions
 
@@ -69,3 +68,28 @@ console.log("Question 5:", catPreference);
 let responseMessage = "Answers: 1-" + graduation + ", 2-" + travelPreference + ", 3-" + favoriteColor + ", 4-" + dogOwnership + ", 5-" + catPreference + ".";
 alert(responseMessage);
 
+//function user story2
+function guessHowManySistersWithMaxGuesses(maxGuesses) {
+  let gotItCorrect = false;
+  let numberOfGuesses = 0;
+
+  for (let i = 1; i <= maxGuesses; i++) {
+    let guess = prompt("How many sisters do I have?");
+    guess = Number(guess);
+
+    if (guess === 2) {
+      gotItCorrect = true;
+      numberOfGuesses = i;
+      break;
+    }
+  }
+
+  if (gotItCorrect) {
+    document.write(numberOfGuesses);
+  } else {
+    document.write("No.");
+  }
+}
+
+//call it
+guessHowManySistersWithMaxGuesses(3);
