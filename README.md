@@ -2,6 +2,7 @@
 
 ## Description
 This project is using HTML, CSS, and JS to practice (so far)...
+- Lists 
 - Loops
 - Arrays
 - Accessibility
