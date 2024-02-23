@@ -1,5 +1,8 @@
 # About Me Webpage
 
+I was Navigator on: [link-to-the-last-PR-your-partner-made](https://github.com/vivianandi/about-me-webpage/commit/e29fb3e362609468a137cc76770399869d242160)
+I was Driver on: [link-to-the-last-PR-you-made-as-Navigator](https://github.com/WajihaKh/201-projects/commit/3d48ead620921870e4c96fec47bfb91b2ad423f5)
+
 ## Description
 This project is using HTML, CSS, and JS to practice (so far)...
 - Lists 
